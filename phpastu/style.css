@@ -1,0 +1,134 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-nav .nav-link:hover {
+    color: #007BFF;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 960px;
+    margin-top: 2rem;
+}
+
+.container h1 {
+    margin-bottom: 2rem;
+}
+
+.container .btn {
+    margin-bottom: 2rem;
+}
+
+.jumbotron {
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 0.3rem;
+}
+
+.jumbotron .display-4,
+.jumbotron .lead {
+    color: #fff;
+}
+
+.jumbotron .display-4 {
+    font-weight: 700;
+}
+
+.jumbotron .lead {
+    font-weight: 500;
+}
+
+.card {
+    background-color: #f8f9fa;
+    border: none;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0.3rem;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175)!important;
+}
+
+.form-control:focus {
+    border-color: #007BFF;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.footer {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 2rem 0;
+    box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.footer .text-muted {
+    color: #ccc;
+}
+
+.footer .form-control {
+    border-color: #fff;
+    color: #fff;
+}
+
+.footer .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.footer .btn-outline-light:hover {
+    background-color: #fff;
+    color: #007BFF;
+}
+
+.table {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.3rem;
+}
+
+.table thead th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.btn-logout {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+
+.btn-logout:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    color: #fff;
+}
